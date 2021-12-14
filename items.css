@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
-  border: thin solid red;
+
 }
 
 #main {
+  width: 18em;
   display: grid;
   grid-gap: 0.1em;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
@@ -11,7 +12,94 @@
 
 .marco{
   border: 1em solid yellow;
+  padding: 3px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
+.fantasma {
+  background-color: mediumpurple;
+}
+
 .nombre{
+  margin: 0 auto;
+
+  position: absolute;
   text-overflow: clip;
+  width: 15em;
+}
+.vida {
+  position: absolute;
+  margin: 0 auto;
+  left: 10em;
+  top: 0.4em;
+  width: 15em;
+}
+.tipo1 {
+  position: absolute;
+  top: 1.4em;
+  left: 3em;
+  width: 1em;
+  height: 1em;
+}
+
+.pre {
+  position: absolute;
+  left: -0.5em;
+  top: -1em;
+  width: 3em;
+  height: 3em;
+  border: 2px solid yellow;
+  z-index: 2;
+  background-color: darkgrey;
+}
+
+.foto{
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  top: 1em;
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  width: 14em;
+  height: 10em;
+}
+.pokemon{
+  position: relative;
+  width: 14em;
+  height: 10em;
+  border: 2px solid yellow;
+}
+
+
+.texto {
+  position: relative;
+  width: 15em;
+
+}
+
+.HAB1 h5{
+  position: relative;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+.HAB1 p{
+  position: relative;
+  font-size: 12px;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: auto;
+}
+.HAB2 h5{
+  position: relative;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+.HAB2 p{
+  position: relative;
+  font-size: 12px;
+  border-bottom: 1px solid black;
+  width: auto;
+  height: auto;
 }

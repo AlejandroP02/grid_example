@@ -1,14 +1,14 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 
 #main {
-
   display: grid;
-  grid-gap: 1em;
+  grid-gap: 2.5em;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-column: 10em;
 
 }
 
@@ -27,7 +27,22 @@
   width: 18em;
 }
 .fantasma {
-  background-color: mediumpurple;
+   /* background-color: mediumpurple; */
+   /* background: repeating-linear-gradient(-45deg, mediumpurple, purple 5px, white 5px, mediumpurple 10px); */
+     background: linear-gradient(to bottom, purple, plum 10%, mediumpurple, purple, mediumpurple, rebeccapurple, mediumpurple, plum, white, mediumpurple, purple);
+
+  /* background-image: repeating-linear-gradient(90deg, transparent, transparent 50px,
+        rgba(255, 127, 0, 0.25) 50px, rgba(255, 127, 0, 0.25) 56px, transparent 56px, transparent 63px,
+        rgba(255, 127, 0, 0.25) 63px, rgba(255, 127, 0, 0.25) 69px, transparent 69px, transparent 116px,
+        rgba(255, 206, 0, 0.25) 116px, rgba(255, 206, 0, 0.25) 166px),
+  repeating-linear-gradient(0deg, transparent, transparent 50px, rgba(255, 127, 0, 0.25) 50px,
+        rgba(255, 127, 0, 0.25) 56px, transparent 56px, transparent 63px, rgba(255, 127, 0, 0.25) 63px,
+        rgba(255, 127, 0, 0.25) 69px, transparent 69px, transparent 116px, rgba(255, 206, 0, 0.25) 116px,
+        rgba(255, 206, 0, 0.25) 166px),
+  repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(143, 77, 63, 0.25) 5px,
+        rgba(143, 77, 63, 0.25) 10px),
+  repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(143, 77, 63, 0.25) 5px,
+        rgba(143, 77, 63, 0.25) 10px); */
 }
 .titulo {
   position: relative;
@@ -60,8 +75,10 @@
   width: 1em;
   height: 1em;
   float: right;
-  top: -1.1em;
-}
+  top: -1em;
+  border-radius: 6em;
+  box-shadow: 0 0 1px;
+  }
 
 .pre {
   position: absolute;
@@ -69,7 +86,7 @@
   top: -2em;
   width: 3em;
   height: 3em;
-  border: 2px solid yellow;
+  border: 2px solid gold;
   z-index: 2;
   background-color: darkgrey;
 }
@@ -89,7 +106,8 @@
   position: relative;
   width: 13.5em;
   height: 9.5em;
-  border: 5px solid yellow;
+  border: 5px solid gold;
+  box-shadow: 3px 3px 11px black;
 }
 
 
@@ -99,7 +117,19 @@
 
 }
 
+.numero {
+  background: linear-gradient(to right, goldenrod, gold, gold, LightGoldenRodYellow, gold, goldenrod);
+  border: 1.5px solid gold;
+  border-radius: 1px;
+  font-size: 9px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 .HAB1 h5{
+  margin-top: 0.5em;
   position: relative;
   text-align: center;
   width: auto;
@@ -135,12 +165,59 @@
   margin-top: 0.1em;
   margin-bottom: 0.5em;
 }
+
+.tipoA {
+  position: absolute;
+  width: 0.8em;
+  height: 0.8em;
+  float: left;
+  top: 1.3em;
+  border-radius: 6em;
+  box-shadow: 0 0 1px;
+  visibility: visible;
+}
+
+.tipoA-1 {
+  position: absolute;
+  width: 0.8em;
+  height: 0.8em;
+  float: left;
+  top: 1.3em;
+  left: 1em;
+  border-radius: 6em;
+  box-shadow: 0 0 1px;
+  visibility: hidden;
+}
+
+.tipoB {
+  position: absolute;
+  width: 0.8em;
+  height: 0.8em;
+  float: left;
+  top: 5.1em;
+  border-radius: 6em;
+  box-shadow: 0 0 1px;
+  visibility: visible;
+}
+
+.tipoB-1 {
+  position: absolute;
+  width: 0.8em;
+  height: 0.8em;
+  float: left;
+  top: 5.1em;
+  left: 1em;
+  border-radius: 6em;
+  box-shadow: 0 0 1px;
+  visibility: visible;
+}
+
 .coste2 {
   float: right;
   position: absolute;
   margin-top: 0;
   margin-bottom: 0;
-  top: -1.5em;
+  top: -1.3em;
 }
 
 .coste1 {
@@ -149,5 +226,5 @@
   position: absolute;
   margin-top: 0;
   margin-bottom: 0;
-  top: -1.5em;
+  top: -1.8em;
 }

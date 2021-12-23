@@ -29,8 +29,7 @@
 .fantasma {
    /* background-color: mediumpurple; */
    /* background: repeating-linear-gradient(-45deg, mediumpurple, purple 5px, white 5px, mediumpurple 10px); */
-     background: linear-gradient(to bottom, purple, plum 10%, mediumpurple, purple, mediumpurple, rebeccapurple, mediumpurple, plum, white, mediumpurple, purple);
-
+     background: linear-gradient(to bottom, purple, plum 10%, mediumpurple, purple, mediumpurple, rebeccapurple, mediumpurple, plum, white, mediumpurple, mediumpurple, purple);
   /* background-image: repeating-linear-gradient(90deg, transparent, transparent 50px,
         rgba(255, 127, 0, 0.25) 50px, rgba(255, 127, 0, 0.25) 56px, transparent 56px, transparent 63px,
         rgba(255, 127, 0, 0.25) 63px, rgba(255, 127, 0, 0.25) 69px, transparent 69px, transparent 116px,
@@ -121,11 +120,12 @@
   background: linear-gradient(to right, goldenrod, gold, gold, LightGoldenRodYellow, gold, goldenrod);
   border: 1.5px solid gold;
   border-radius: 1px;
-  font-size: 9px;
+  font-size: 7.5px;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  text-align: center;
 }
 
 .HAB1 h5{
@@ -171,7 +171,7 @@
   width: 0.8em;
   height: 0.8em;
   float: left;
-  top: 1.3em;
+  top: 1.2em;
   border-radius: 6em;
   box-shadow: 0 0 1px;
   visibility: visible;
@@ -182,7 +182,7 @@
   width: 0.8em;
   height: 0.8em;
   float: left;
-  top: 1.3em;
+  top: 1.2em;
   left: 1em;
   border-radius: 6em;
   box-shadow: 0 0 1px;
@@ -194,7 +194,7 @@
   width: 0.8em;
   height: 0.8em;
   float: left;
-  top: 5.1em;
+  top: 5em;
   border-radius: 6em;
   box-shadow: 0 0 1px;
   visibility: visible;
@@ -205,7 +205,7 @@
   width: 0.8em;
   height: 0.8em;
   float: left;
-  top: 5.1em;
+  top: 5em;
   left: 1em;
   border-radius: 6em;
   box-shadow: 0 0 1px;
@@ -227,4 +227,89 @@
   margin-top: 0;
   margin-bottom: 0;
   top: -1.8em;
+}
+
+.info {
+  margin-bottom: 5px;
+}
+
+.info1 {
+  position: relative;
+  display: flex;
+
+}
+
+.textop {
+
+  font-size: 6px;
+  font-weight: bold;
+}
+
+.Linea1 {
+  display: flex;
+  width: auto;
+  height: 1.3em;
+  border-bottom: 1px solid black;
+  border-top: 3px solid black;
+}
+
+.Linea1 p{
+  width: auto;
+}
+
+.Linea1 img {
+  margin-top: 3px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 6em;
+  box-shadow: 0 0 1px;
+}
+.Linea1 h6 {
+  margin-top: 3px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: auto;
+}
+
+.salto {
+  width: 3px;
+  height: 1.3em;
+  border-bottom: 1px solid black;
+  border-top: 3px solid black;
+}
+
+.descripcion {
+  position: absolute;
+  padding: 2px;
+  font-size: 5px;
+  border: 1.5px solid yellow;
+  height: 7.3em;
+  width: 20em;
+  right: 0;
+}
+
+.Linea2 {
+
+  border-bottom: 3px solid black;
+  display: flex;
+}
+.Linea2 p{
+  width: auto;
+}
+
+.Linea2 img {
+  margin-top: 3px;
+  margin-bottom: 1px;
+  margin-left: 1px;
+  width: 0.8em;
+  height: 0.8em;
+  border-radius: 6em;
+  box-shadow: 0 0 1px;
+}
+
+.salto1 {
+  width: 3px;
 }
